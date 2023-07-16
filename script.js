@@ -1,4 +1,6 @@
-//your code here
+let bandNames = ['The Beatles', 'Metallica', 'Nirvana', 'Red Hot Chili Peppers', 'AC/DC'];
+
+// Remove articles ('a', 'an', 'the') from band names
 let cleanedBandNames = bandNames.map(name => name.replace(/^(a |an |the )/i, ''));
 
 // Sort the cleaned band names in lexicographic order
